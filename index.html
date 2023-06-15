@@ -4,37 +4,69 @@
     <meta cha rset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link  href="https://fonts.googleapis.com/icon?family=Material+Icons" 
-    rel="stylesheet"/>
+    <link  href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
 
     <link rel="stylesheet" href="./style.css"/>
     <title>landing page UNICLASS</title>
+
 </head>
 <body>
     <header>
-    <nav>
-        <a href="#" id="logo" class="nav.item"></a>
-        <h1><i class="material-icons">polymer</i>UNICLASS</h1>
-   <ul>
-    <a href="#about"></a><li><i class="material-icons">help</i>Sobre</li>
-    <a href="#employess"></a><li><i class="material-icons">note_add</i>Funcionários</li>
-    <a href="#account"></a><li><i class="material-icons">call</i>Acesse sua UNI-conta </li>
-   </ul>
-    </nav>
+        <nav>
+            <div class="logo">
+                <a href="#" id="logo" class="nav.item"></a>
+                <h1><i class="material-icons">polymer</i>UNICLASS</h1>
+            </div>
+                
+            <ul class="items"> 
+                <li>
+                    <i class="material-icons">help</i>Sobre
+                    <a href="#about"></a>
+                </li>
+                <li>
+                    <i class="material-icons">note_add</i>Funcionários
+                    <a href="#employess"></a>
+                </li>
+                <li>
+                    <i class="material-icons">call</i>Acesse sua UNI-conta 
+                    <a href="#account"></a>
+                </li>
+            </ul>
+        </nav>
      </header>
     <main>
         <section id="anuncio">
-            <section id="explained">
-            <p>A uniclass é um site fictício criado com o propósito de complementar a aplicação do paper desenvolvido por alunos do curso de Análise e Desenvolvimento de Sistemas.</p>
-            <P>.</P>
-            <button id="button-sold"><p>ASSINE AQUI SEU UNI-PLANO</p></button>
+            <div id="explained">
+                <p>A uniclass é um site fictício criado com o propósito de complementar a aplicação do paper desenvolvido por alunos do curso de Análise e Desenvolvimento de Sistemas.</p>
+                <button id="button-sold">ASSINE AQUI SEU UNI-PLANO</button>
+            </div>
+            <div class="box-imagem">
+                <img class="imagem-principal" src="./imagens/MEDICO SORRINDO.jpg"/>
+            </div>
         </section>
-        <aside id="appealin-content">  
-     <img src="./imagens/MEDICO SORRINDO.jpg"/>  <img src="imagens/4 velhos.JPG"/> <img src="imagens/velho dando joia.jpeg"/>
-             <aside>
-                <h1><i class="material-icons">favorite_border</i>Cuidando de você,e de quem você mais ama,com Amor & Carinho!</h1>
-        </aside>
+        <section id="appealin-content">  
+            <div class="imgem-secundaria">
+                <img src="imagens/Idosos.png"/>
+            </div>
+            <div class="anuncio-secundario">
+                <h3>Titulo</h3>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio id consectetur fugit, unde quisquam sunt quia aliquid, voluptas pariatur illum earum perspiciatis obcaecati perferendis, aut provident explicabo! Natus, neque provident.</span>
+                
+            </div>
+        </section>
+        <section class="anuncio-final">
+            <span>
+                <!-- <i class="material-icons">favorite_border</i> -->
+                Cuidando de você, e de quem você mais ama, com Amor & Carinho!
+            </span>
+            <img src="imagens/velho dando joia.jpeg"/>
+        </section>
+
         </main>
-        <footer><i class="material-icons">camera_alt</i>SIGA-NOS EM NOSSA REDES SOCIAIS! </footer>
+
+        <footer>
+            <i class="material-icons">camera_alt</i>
+            SIGA-NOS EM NOSSA REDES SOCIAIS! 
+        </footer>
 </body>
 </html>
